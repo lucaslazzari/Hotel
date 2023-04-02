@@ -52,8 +52,7 @@ namespace Hotel.Models
         public override string ToString()
         {
             return $"ID:{Id} SUITE:{Suite.TipoSuite} CAPACIDADE:{Suite.Capacidade}  " +
-                   $"VALOR DIARIA:{Suite.ValorDiaria} VALOR TOTAL:{CalcularValorTotalReserva()} " +
-                   $"HOSPEDES: {Hospedes}";
+                   $"VALOR DIARIA:{Suite.ValorDiaria} VALOR TOTAL:{CalcularValorTotalReserva()} ";
         }
     }
 }
